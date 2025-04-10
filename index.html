@@ -17,7 +17,52 @@
         Check back soon for updates!
     </p>
 
-    <!-- You can add more content here later, like a sign-up form for updates -->
+    <h2>Create a New Quiz Question</h2>
+
+    <form id="quiz-form">
+        <div>
+            <label for="question-text">Question:</label>
+            <input type="text" id="question-text" name="question-text" required>
+        </div>
+    
+        <fieldset>
+            <legend>Answers:</legend>
+    
+            <div>
+                <input type="radio" id="correct-answer-1" name="correct-answer" value="1" required>
+                <label for="answer-text-1">Answer 1:</label>
+                <input type="text" id="answer-text-1" name="answer-text-1" required>
+            </div>
+    
+            <div>
+                <input type="radio" id="correct-answer-2" name="correct-answer" value="2" required>
+                <label for="answer-text-2">Answer 2:</label>
+                <input type="text" id="answer-text-2" name="answer-text-2" required>
+            </div>
+    
+            <div>
+                <input type="radio" id="correct-answer-3" name="correct-answer" value="3" required>
+                <label for="answer-text-3">Answer 3:</label>
+                <input type="text" id="answer-text-3" name="answer-text-3" required>
+            </div>
+    
+            <div>
+                <input type="radio" id="correct-answer-4" name="correct-answer" value="4" required>
+                <label for="answer-text-4">Answer 4:</label>
+                <input type="text" id="answer-text-4" name="answer-text-4" required>
+            </div>
+        </fieldset>
+    
+        <button type="submit">Add Question</button>
+    </form>
+    
+    <hr> <!-- A horizontal line to separate sections -->
+    
+    <h2>Your Quiz Questions:</h2>
+    <div id="quiz-display">
+        <!-- Questions will be added here by JavaScript later -->
+        <p>No questions added yet.</p>
+    </div>
 
 </body>
 </html>
