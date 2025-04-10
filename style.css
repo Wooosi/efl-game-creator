@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Use common sans-serif fonts */
+    text-align: center; /* Center align all text within the body */
+    background-color: #f8f8f8; /* A very light grey background */
+    padding: 20px; /* Add some padding around the content */
+    color: #333; /* Set a default text color */
+}
+
+h1 {
+    color: #0056b3; /* A slightly darker blue for the heading */
+}
+
+p {
+    max-width: 600px; /* Limit paragraph width for readability */
+    margin: 20px auto; /* Center the paragraph block itself */
+    line-height: 1.6; /* Improve line spacing */
+    text-align: left; /* Keep paragraph text left-aligned for readability */
+}
