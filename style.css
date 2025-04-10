@@ -16,3 +16,59 @@ p {
     line-height: 1.6; /* Improve line spacing */
     text-align: left; /* Keep paragraph text left-aligned for readability */
 }
+
+#quiz-form div {
+    margin-bottom: 10px; /* Adds space below each div inside the form */
+}
+
+#quiz-form label {
+    display: inline-block; /* Allows setting width and margins */
+    width: 80px; /* Gives labels a consistent width */
+    margin-right: 10px; /* Adds space between label and input */
+    vertical-align: middle; /* Aligns labels nicely with inputs */
+}
+
+#quiz-form input[type="text"] {
+    padding: 5px; /* Adds some internal space within the text boxes */
+    width: 250px; /* Makes text boxes wider */
+    vertical-align: middle;
+}
+
+#quiz-form fieldset {
+    border: 1px solid #ccc; /* Adds a light grey border */
+    padding: 15px; /* Adds space inside the fieldset border */
+    margin-bottom: 15px; /* Adds space below the fieldset */
+}
+
+#quiz-form legend {
+    font-weight: bold; /* Makes the legend text bold */
+    padding: 0 5px; /* Adds a little horizontal space around the legend text */
+}
+
+/* Style the answer divs slightly differently inside the fieldset */
+#quiz-form fieldset div {
+    margin-bottom: 8px;
+}
+
+#quiz-form fieldset label {
+    width: auto; /* Let answer labels take their natural width */
+}
+
+#quiz-form input[type="radio"] {
+    margin-right: 5px; /* Space between radio button and its label */
+    vertical-align: middle;
+}
+
+
+#quiz-form button {
+    padding: 8px 15px; /* Makes the button bigger */
+    cursor: pointer; /* Changes cursor to a pointer on hover */
+    margin-top: 10px; /* Adds space above the button */
+}
+
+#quiz-display {
+    margin-top: 20px; /* Space above the display area */
+    padding: 15px;
+    border: 1px dashed #aaa; /* Dashed border to show where questions will appear */
+    min-height: 50px; /* Give it some minimum height */
+}
